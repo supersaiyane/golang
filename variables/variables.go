@@ -23,11 +23,19 @@ func main() {
 
 	name3 = "golang3"
 
+	//finally
+	var price float32 = 50.1
+	var price2 = 50.2
+	price3 := 50.3
+
 	fmt.Println(name)
 	fmt.Println(secondname)
 	fmt.Println(isAdult)
 	fmt.Println(age)
 	fmt.Println(name1)
 	fmt.Println(name3)
+	fmt.Println(price)
+	fmt.Println(price2)
+	fmt.Println(price3)
 
 }
