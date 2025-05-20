@@ -41,4 +41,10 @@ func main() {
 	//2d slices
 	var nums3 = [][]int{{1, 2, 3}, {1, 2, 3}}
 	fmt.Println(nums3)
+
+	// nums[0:2]	[8 9]		From index 0 to before 2
+	// nums[:2]		[8 9]		Same as above
+	// nums[0:1]	[8]			Only index 0
+	// nums[1:]		[9 6 4 5 2]	From index 1 to end
+	// nums[1:3]	[9 6]		From index 1 to before 3
 }
