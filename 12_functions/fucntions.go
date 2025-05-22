@@ -10,6 +10,10 @@ func main() {
 
 	fmt.Println(getlanguages())
 
+	//another way of writing
+	lang1, lang2, lang3 := getlanguages()
+	fmt.Println(lang1, lang2, lang3)
+
 }
 
 // func add(a int, b int) int {
